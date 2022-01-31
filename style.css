@@ -1,0 +1,224 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url("/img/bg-head.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    height:100 vh;
+    width:100%;
+}
+
+nav{
+    height: 5vh;
+    width: 100%;
+    position:fixed;
+    background-color: black;
+    z-index: 5;
+}
+
+nav ul{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    margin: 2px 5px;
+
+}
+
+nav ul span{
+    margin-right:20px;
+    padding: 5px;
+    font-size:20px;
+    transition: all 0.5s ease-in-out;
+    color: blanchedalmond;
+}
+
+nav ul span:hover{
+    padding:10px;
+    background-color:purple;
+    border-radius: 10px 0;
+}
+.intro{
+    top:30vh;
+    left:30px;
+    padding: 10px;
+    font-size: 60px;
+    position:absolute;
+    color: seashell;
+}
+
+a{
+    text-decoration: none;
+    transition:color 0.1 ease-in;
+}
+.intro b{
+    color:purple;
+    
+}
+
+.my_work{
+    color:white;
+    padding: 8px 20px;
+    position:relative;
+    background-color: black;
+}
+
+.my_work:hover{
+    background-color: purple;
+    height:40px;
+    width:130px;
+}
+
+.aboutsection{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 52px 0 52px 0;
+    height:40vh;
+
+}
+
+.about{
+    width:100%;
+    height:60px;
+    font-size:60px;
+    padding:30px 0;
+    color:purple;
+    margin-top: 50%;
+}
+
+.about_data{
+    width:60%;
+    color:white;
+    margin:20px 0;
+    padding: 10px;
+    font-size:30px;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin:500px 0 0 0;
+    height:90vh;
+}
+
+.my_project{
+    width:100%;
+    height:60px;
+    font-size: 60px;
+    padding: 30px 0;
+    color:purple;
+}
+
+.project_details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width:80%;
+    height:60vh;
+    color:white
+}
+
+.all_project{
+    display: flex;
+    flex-direction: column;
+}
+
+.all_project div{
+    padding: 10px;
+    margin: 1px;
+    width:100%;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+
+.aboutproject{
+    align-items:center;
+    width:60%;
+    height: 188px;
+    display: flex;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color:seashell
+}
+
+.skill_heading{
+    width:100%;
+    height:60px;
+    font-size: 60px;
+    padding:30px 0;
+    color:purple;
+}
+
+.all_skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all_skills div{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    margin:5px;
+}
+
+.all_skills div div{
+    padding:11px 15px;
+    background-color: purple;
+    margin:5px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding:50px 0;
+}
+
+.contact_heading{
+    width: 100%;
+    height: 60px;
+    font-size: 60px;
+    padding: 30px 0;
+    color: purple;
+    margin: 50px;
+}
+
+.contact_pic img{
+    border-radius: 50%;
+    height:300px;
+    width: 300px;
+}
+
+.contact_info{
+    font-size: 25px;
+    color:seashell;
+}
+
+footer{
+    background-color: purple;
+    font-size: 15px;
+    color:seashell;
+    align-items: center;
+    text-align: center;
+    height: 3vh;
+    
+}
+
